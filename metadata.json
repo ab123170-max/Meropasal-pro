@@ -1,0 +1,6 @@
+{
+  "name": "MeethoPasal PRO",
+  "description": "Offline-first restaurant management platform foundation built with Kotlin, Jetpack Compose, Material 3, Room, Hilt, Navigation Compose, and WorkManager.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

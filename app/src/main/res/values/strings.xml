@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">MeethoPasal PRO</string>
+    <string name="brand_tagline">Hospitality &amp; Ledger Suite</string>
+    <string name="splash_initializing">Initializing local workspace…</string>
+    <string name="splash_ready">Workspace ready</string>
+    <string name="splash_offline_badge">Offline-First Core</string>
+
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_info">Info</string>
+
+    <string name="dashboard_welcome_kicker">Restaurant Operations</string>
+    <string name="dashboard_welcome_title">Welcome to MeethoPasal PRO</string>
+    <string name="dashboard_welcome_subtitle">Foundation Shell • Part 01 of 12</string>
+    <string name="dashboard_offline_status">Offline Ready • Local Room DB</string>
+
+    <string name="dashboard_business_overview_title">Business Overview</string>
+    <string name="dashboard_business_overview_empty">No active outlet metrics yet. Outlet configuration, floor capacity, and shift tracking will activate in upcoming modules.</string>
+    <string name="dashboard_metric_storage_label">Primary Store</string>
+    <string name="dashboard_metric_storage_value">Room SQLite</string>
+    <string name="dashboard_metric_sync_label">Cloud Sync</string>
+    <string name="dashboard_metric_sync_value">Standby (Offline)</string>
+    <string name="dashboard_metric_modules_label">Active Stage</string>
+    <string name="dashboard_metric_modules_value">Part 01 Foundation</string>
+
+    <string name="dashboard_sales_summary_title">Sales Summary</string>
+    <string name="dashboard_sales_empty_figure">—</string>
+    <string name="dashboard_sales_empty_title">No sales ledger active</string>
+    <string name="dashboard_sales_empty_subtitle">Financial totals are intentionally blank until POS &amp; Billing (Part 02) is enabled. Selected currency: %1$s</string>
+
+    <string name="dashboard_modules_title">Suite Modules Roadmap</string>
+    <string name="dashboard_modules_subtitle">Shortcuts are locked until their corresponding build phase is integrated.</string>
+    <string name="badge_coming_soon">Coming Soon</string>
+
+    <string name="settings_title">System Settings</string>
+    <string name="settings_subtitle">Preferences persist offline in your local Room database.</string>
+    <string name="settings_section_appearance">Appearance &amp; Theme</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_theme_light">Light Theme</string>
+    <string name="settings_theme_dark">Dark Theme</string>
+    <string name="settings_section_localization">Language Preference</string>
+    <string name="settings_section_currency">Currency Preference</string>
+    <string name="settings_section_app_info">Application Profile</string>
+    <string name="settings_section_database">Local Database Diagnostics</string>
+    <string name="settings_db_name_label">Database File</string>
+    <string name="settings_db_version_label">Schema Version</string>
+    <string name="settings_db_records_label">Settings Records</string>
+    <string name="settings_db_status_label">Health Status</string>
+    <string name="settings_action_health_check">Verify Database</string>
+    <string name="settings_action_reset">Reset Preferences</string>
+    <string name="settings_reset_confirm_title">Reset preferences?</string>
+    <string name="settings_reset_confirm_message">Restore default theme, English language, and NPR currency settings in local storage.</string>
+    <string name="settings_action_confirm">Reset</string>
+    <string name="settings_action_cancel">Cancel</string>
+    <string name="settings_saved_banner">Preferences saved locally</string>
+
+    <string name="info_title">System Information</string>
+    <string name="info_subtitle">Architecture, build metadata, and offline foundation readiness.</string>
+    <string name="info_section_version">Build &amp; Version</string>
+    <string name="info_label_app_name">Application</string>
+    <string name="info_label_app_id">Application ID</string>
+    <string name="info_label_version">Version</string>
+    <string name="info_label_target_sdk">Target Platform</string>
+    <string name="info_section_developer">Developer &amp; Architecture</string>
+    <string name="info_developer_placeholder">MeethoPasal Engineering • Modular 12-Part Hospitality Suite</string>
+    <string name="info_architecture_summary">MVVM + Clean Architecture (UI, Domain, Data) with offline-first Room persistence and a decoupled RemoteDataSource contract ready for future Supabase integration without embedding service secrets.</string>
+    <string name="info_section_tech">Core Technology Stack</string>
+
+    <string name="state_loading">Loading workspace state…</string>
+    <string name="state_error_title">Unable to load local workspace</string>
+    <string name="state_retry">Retry</string>
+</resources>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">MeethoPasal PRO</string>
+    <string name="brand_tagline">रेस्टुरेन्ट र लेजर प्रणाली</string>
+    <string name="splash_initializing">स्थानीय कार्यक्षेत्र सुरु हुँदैछ…</string>
+    <string name="splash_ready">कार्यक्षेत्र तयार छ</string>
+    <string name="splash_offline_badge">अफलाइन-प्रथम आधार</string>
+
+    <string name="nav_dashboard">ड्यासबोर्ड</string>
+    <string name="nav_settings">सेटिङ्स</string>
+    <string name="nav_info">जानकारी</string>
+
+    <string name="dashboard_welcome_kicker">रेस्टुरेन्ट सञ्चालन</string>
+    <string name="dashboard_welcome_title">MeethoPasal PRO मा स्वागत छ</string>
+    <string name="dashboard_welcome_subtitle">आधारभूत संरचना • भाग ०१ / १२</string>
+    <string name="dashboard_offline_status">अफलाइन तयार • स्थानीय Room DB</string>
+
+    <string name="dashboard_business_overview_title">व्यवसाय सारांश</string>
+    <string name="dashboard_business_overview_empty">अहिले सक्रिय आउटलेट विवरण छैन। आउटलेट र टेबल व्यवस्थापन आगामी भागहरूमा सक्रिय हुनेछ।</string>
+    <string name="dashboard_metric_storage_label">मुख्य भण्डारण</string>
+    <string name="dashboard_metric_storage_value">Room SQLite</string>
+    <string name="dashboard_metric_sync_label">क्लाउड सिंक</string>
+    <string name="dashboard_metric_sync_value">तयारी अवस्था (अफलाइन)</string>
+    <string name="dashboard_metric_modules_label">सक्रिय चरण</string>
+    <string name="dashboard_metric_modules_value">भाग ०१ आधार</string>
+
+    <string name="dashboard_sales_summary_title">बिक्री सारांश</string>
+    <string name="dashboard_sales_empty_figure">—</string>
+    <string name="dashboard_sales_empty_title">बिक्री खाता सक्रिय छैन</string>
+    <string name="dashboard_sales_empty_subtitle">POS र बिलिङ (भाग ०२) सुरु नभएसम्म वित्तीय आँकडा खाली रहनेछ। छानिएको मुद्रा: %1$s</string>
+
+    <string name="dashboard_modules_title">प्रणाली मोड्युल रोडम्याप</string>
+    <string name="dashboard_modules_subtitle">सम्बन्धित निर्माण चरण पूरा नभएसम्म यी सर्टकटहरू बन्द छन्।</string>
+    <string name="badge_coming_soon">चाँडै आउँदैछ</string>
+
+    <string name="settings_title">प्रणाली सेटिङ्स</string>
+    <string name="settings_subtitle">सेटिङहरू स्थानीय Room डेटाबेसमा सुरक्षित रहन्छन्।</string>
+    <string name="settings_section_appearance">थिम र रूप</string>
+    <string name="settings_theme_system">प्रणाली अनुसार</string>
+    <string name="settings_theme_light">उज्यालो थिम</string>
+    <string name="settings_theme_dark">अँध्यारो थिम</string>
+    <string name="settings_section_localization">भाषा छनोट</string>
+    <string name="settings_section_currency">मुद्रा छनोट</string>
+    <string name="settings_section_app_info">एप विवरण</string>
+    <string name="settings_section_database">स्थानीय डेटाबेस जाँच</string>
+    <string name="settings_db_name_label">डेटाबेस फाइल</string>
+    <string name="settings_db_version_label">स्किमा संस्करण</string>
+    <string name="settings_db_records_label">सेटिङ्स रेकर्ड</string>
+    <string name="settings_db_status_label">स्वास्थ्य स्थिति</string>
+    <string name="settings_action_health_check">डेटाबेस जाँच गर्नुहोस्</string>
+    <string name="settings_action_reset">डिफल्टमा फर्काउनुहोस्</string>
+    <string name="settings_reset_confirm_title">सेटिङ्स रिसेट गर्ने?</string>
+    <string name="settings_reset_confirm_message">स्थानीय भण्डारणमा डिफल्ट थिम, अंग्रेजी भाषा र NPR मुद्रा पुनर्स्थापित गर्नुहोस्।</string>
+    <string name="settings_action_confirm">रिसेट</string>
+    <string name="settings_action_cancel">रद्द</string>
+    <string name="settings_saved_banner">सेटिङ्स स्थानीय रूपमा सुरक्षित भयो</string>
+
+    <string name="info_title">प्रणाली जानकारी</string>
+    <string name="info_subtitle">आर्किटेक्चर, संस्करण विवरण र अफलाइन आधार।</string>
+    <string name="info_section_version">संस्करण र निर्माण</string>
+    <string name="info_label_app_name">एप्लिकेसन</string>
+    <string name="info_label_app_id">एप्लिकेसन आईडी</string>
+    <string name="info_label_version">संस्करण</string>
+    <string name="info_label_target_sdk">लक्षित प्लेटफर्म</string>
+    <string name="info_section_developer">विकासकर्ता र संरचना</string>
+    <string name="info_developer_placeholder">MeethoPasal Engineering • १२-भाग रेस्टुरेन्ट व्यवस्थापन प्रणाली</string>
+    <string name="info_architecture_summary">MVVM + Clean Architecture (UI, Domain, Data) अफलाइन Room भण्डारण र भविष्यको Supabase सिंक इन्टरफेस सहित।</string>
+    <string name="info_section_tech">प्रविधि स्ट्याक</string>
+
+    <string name="state_loading">कार्यक्षेत्र लोड हुँदैछ…</string>
+    <string name="state_error_title">कार्यक्षेत्र लोड गर्न सकिएन</string>
+    <string name="state_retry">पुनः प्रयास</string>
+</resources>

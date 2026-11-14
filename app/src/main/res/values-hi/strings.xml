@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">MeethoPasal PRO</string>
+    <string name="brand_tagline">रेस्तरां एवं लेजर सुइट</string>
+    <string name="splash_initializing">स्थानीय कार्यक्षेत्र प्रारंभ हो रहा है…</string>
+    <string name="splash_ready">कार्यक्षेत्र तैयार है</string>
+    <string name="splash_offline_badge">ऑफ़लाइन-प्रथम कोर</string>
+
+    <string name="nav_dashboard">डैशबोर्ड</string>
+    <string name="nav_settings">सेटिंग्स</string>
+    <string name="nav_info">जानकारी</string>
+
+    <string name="dashboard_welcome_kicker">रेस्तरां संचालन</string>
+    <string name="dashboard_welcome_title">MeethoPasal PRO में स्वागत है</string>
+    <string name="dashboard_welcome_subtitle">फ़ाउंडेशन शेल • भाग 01 / 12</string>
+    <string name="dashboard_offline_status">ऑफ़लाइन तैयार • स्थानीय Room DB</string>
+
+    <string name="dashboard_business_overview_title">व्यवसाय अवलोकन</string>
+    <string name="dashboard_business_overview_empty">अभी तक कोई सक्रिय आउटलेट डेटा नहीं है। आउटलेट और टेबल प्रबंधन आगामी भागों में सक्रिय होगा।</string>
+    <string name="dashboard_metric_storage_label">मुख्य स्टोरेज</string>
+    <string name="dashboard_metric_storage_value">Room SQLite</string>
+    <string name="dashboard_metric_sync_label">क्लाउड सिंक</string>
+    <string name="dashboard_metric_sync_value">स्टैंडबाय (ऑफ़लाइन)</string>
+    <string name="dashboard_metric_modules_label">सक्रिय चरण</string>
+    <string name="dashboard_metric_modules_value">भाग 01 फ़ाउंडेशन</string>
+
+    <string name="dashboard_sales_summary_title">बिक्री सारांश</string>
+    <string name="dashboard_sales_empty_figure">—</string>
+    <string name="dashboard_sales_empty_title">कोई बिक्री खाता सक्रिय नहीं</string>
+    <string name="dashboard_sales_empty_subtitle">POS और बिलिंग (भाग 02) सक्षम होने तक वित्तीय आंकड़े खाली रहेंगे। चयनित मुद्रा: %1$s</string>
+
+    <string name="dashboard_modules_title">सुइट मॉड्यूल रोडमैप</string>
+    <string name="dashboard_modules_subtitle">संबंधित चरण एकीकृत होने तक शॉर्टकट लॉक हैं।</string>
+    <string name="badge_coming_soon">जल्द आ रहा है</string>
+
+    <string name="settings_title">सिस्टम सेटिंग्स</string>
+    <string name="settings_subtitle">प्राथमिकताएँ आपके स्थानीय Room डेटाबेस में सहेजी जाती हैं।</string>
+    <string name="settings_section_appearance">थीम और रूप</string>
+    <string name="settings_theme_system">सिस्टम डिफ़ॉल्ट</string>
+    <string name="settings_theme_light">लाइट थीम</string>
+    <string name="settings_theme_dark">डार्क थीम</string>
+    <string name="settings_section_localization">भाषा प्राथमिकता</string>
+    <string name="settings_section_currency">मुद्रा प्राथमिकता</string>
+    <string name="settings_section_app_info">एप्लिकेशन प्रोफ़ाइल</string>
+    <string name="settings_section_database">स्थानीय डेटाबेस निदान</string>
+    <string name="settings_db_name_label">डेटाबेस फ़ाइल</string>
+    <string name="settings_db_version_label">स्कीमा संस्करण</string>
+    <string name="settings_db_records_label">सेटिंग्स रिकॉर्ड</string>
+    <string name="settings_db_status_label">स्वास्थ्य स्थिति</string>
+    <string name="settings_action_health_check">डेटाबेस सत्यापित करें</string>
+    <string name="settings_action_reset">प्राथमिकताएँ रीसेट करें</string>
+    <string name="settings_reset_confirm_title">प्राथमिकताएँ रीसेट करें?</string>
+    <string name="settings_reset_confirm_message">स्थानीय स्टोरेज में डिफ़ॉल्ट थीम, अंग्रेज़ी भाषा और NPR मुद्रा पुनर्स्थापित करें।</string>
+    <string name="settings_action_confirm">रीसेट</string>
+    <string name="settings_action_cancel">रद्द करें</string>
+    <string name="settings_saved_banner">प्राथमिकताएँ स्थानीय रूप से सहेजी गईं</string>
+
+    <string name="info_title">सिस्टम जानकारी</string>
+    <string name="info_subtitle">आर्किटेक्चर, बिल्ड मेटाडेटा और ऑफ़लाइन तैयारी।</string>
+    <string name="info_section_version">बिल्ड और संस्करण</string>
+    <string name="info_label_app_name">एप्लिकेशन</string>
+    <string name="info_label_app_id">एप्लिकेशन आईडी</string>
+    <string name="info_label_version">संस्करण</string>
+    <string name="info_label_target_sdk">लक्ष्य प्लेटफ़ॉर्म</string>
+    <string name="info_section_developer">डेवलपर और आर्किटेक्चर</string>
+    <string name="info_developer_placeholder">MeethoPasal Engineering • 12-भाग रेस्तरां प्रबंधन सुइट</string>
+    <string name="info_architecture_summary">MVVM + Clean Architecture (UI, Domain, Data) ऑफ़लाइन Room स्टोरेज और भविष्य के Supabase एकीकरण अनुबंध के साथ।</string>
+    <string name="info_section_tech">मुख्य प्रौद्योगिकी स्टैक</string>
+
+    <string name="state_loading">कार्यक्षेत्र लोड हो रहा है…</string>
+    <string name="state_error_title">स्थानीय कार्यक्षेत्र लोड नहीं हो सका</string>
+    <string name="state_retry">पुनः प्रयास करें</string>
+</resources>
